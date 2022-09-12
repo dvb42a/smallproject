@@ -1,6 +1,6 @@
 Xamp setting:
 
-<VirtualHost *:80>
+<VirtualHost *:80>  
    DocumentRoot "c:\xampp\htdocs\mysystem\public"  
    ServerName smartlive.system       
 </VirtualHost>  
