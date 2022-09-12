@@ -3,7 +3,7 @@ Xamp setting:
 <VirtualHost *:80>
    DocumentRoot "c:\xampp\htdocs\mysystem\public"  
    ServerName smartlive.system       
-</VirtualHost>
+</VirtualHost>  
 
 Data base Setting(MySQL):  
 -Default data  
