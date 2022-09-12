@@ -6,10 +6,10 @@ Xamp setting:
 </VirtualHost>  
 
 Laravel environment  
-1.PHP 8+  
-2.if don't have .env file 
-plz create one in laravel file ->.env 
-Copy and paste .env.txt 's content to .env 
+1.PHP 8+    
+2.if don't have .env file   
+plz create one in laravel file ->.env   
+Copy and paste .env.txt 's content to .env   
   
   
 Data base Setting(MySQL):  
