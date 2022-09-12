@@ -1,0 +1,1 @@
+<img src="{{ asset('logo/logo3D_login.png') }}" width="500px" alt="Logo">

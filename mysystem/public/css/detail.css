@@ -1,0 +1,98 @@
+.ns-TabsModule {
+  width: 100%;
+  text-align: center;
+}
+
+.ns-TabNav {
+  position: relative;
+  /* wipe out any unwanted whitespace around inline elements */
+  font-size: 0;
+}
+
+.ns-TabNav_Link {
+  display: inline-block;
+  margin: 0 11px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: calc(11px * 4);
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.ns-TabNav_Link span {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 1px;
+    pointer-events: none;
+  }
+
+.ns-TabNav_Indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background-color: rgb(0, 255, 221);
+  transition-property: transform, left, background-color;
+  transition-duration: 0.2s;
+  transform-origin: 0;
+  transform: translate3d(0, 0, 0) scaleX(0);
+  opacity: 0;
+  -webkit-animation: fadeMeIn 0.2s forwards;
+          animation: fadeMeIn 0.2s forwards;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.ns-TabPanel {
+  padding: 40px;
+  font-size: 11px;
+  color: #505050;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: none;
+}
+
+@-webkit-keyframes fadeMeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeMeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* prettify */
+
+
+
+.ns-ScrollWrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  box-shadow: inset 0 -2px 0 0 #404040;
+}
+
+.ns-ScrollWrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+/** 
+* indicator color for each tab should you need,
+* could attach data-color attribute to tab link instead, JS maybe 
+* performance should dictate what to do
+*/
+/*
+.ns-TabNav_Indicator {
+  [data-active-tab="B"] & { background-color: black; }
+  [data-active-tab="C"] & { background-color: mediumaquamarine; }
+  [data-active-tab="D"] & { background-color: slateblue; }
+  [data-active-tab="E"] & { background-color: coral; }
+  [data-active-tab="F"] & { background-color: indianred; }
+  [data-active-tab="G"] & { background-color: $color-white; }
+}
+*/
