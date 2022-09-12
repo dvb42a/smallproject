@@ -5,6 +5,11 @@ Xamp setting:
    ServerName smartlive.system       
 </VirtualHost>  
 
+Laravel environment
+1.PHP 8+
+2.php artisan key:generate
+
+
 Data base Setting(MySQL):  
 -Default data  
 1. Download laravel.sql   
