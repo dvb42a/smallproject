@@ -38,9 +38,9 @@ GTA_webdesign_doc.xlsx
 2.地圖的新增  
 3.才能於series 當中新增系統賽及選擇系統車型/選擇比賽地圖等  
   
-any question:  
-welcome to   
-email:tszchun516@gmail.com  
+Any question:  
+Welcome to   
+Email:tszchun516@gmail.com  
 Line:sotszchun516   
   
 thank you!!!  
